@@ -1,0 +1,55 @@
+.navControls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.navControls select {
+  padding: 0.5rem;
+}
+
+.navControls button {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  padding: 0.7rem;
+  background-color: rgba(0, 160, 253, 0.966);
+  color: white;
+}
+
+.scrambleMoves {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scrambleMoves span {
+  padding: 0.2rem 0.2rem;
+}
+/*# sourceMappingURL=Nav.module.css.map */

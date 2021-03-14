@@ -1,0 +1,21 @@
+.faceWrapper {
+  display: inline-block;
+  width: 316px;
+  display: flex;
+  flex-direction: column;
+}
+
+.faceRow {
+  display: flex;
+  flex-direction: row;
+  margin: 0.1rem 0;
+}
+
+.faceBlock {
+  flex-shrink: 1;
+  display: inline-block;
+  min-height: 38px;
+  width: 100%;
+  margin: 0 0.1rem;
+  border: 1px solid gray;
+}

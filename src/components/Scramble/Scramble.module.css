@@ -1,0 +1,44 @@
+.scrambleImageWrapper {
+  position: relative;
+  -webkit-transform: scale(0.4);
+          transform: scale(0.4);
+  display: inline-block;
+}
+
+.faceUp,
+.faceDown,
+.faceFront,
+.faceBack,
+.faceLeft,
+.faceRight {
+  position: absolute;
+}
+
+.faceLeft {
+  top: 328px;
+}
+
+.faceFront {
+  top: 328px;
+  left: 328px;
+}
+
+.faceRight {
+  top: 328px;
+  left: 656px;
+}
+
+.faceDown {
+  top: 656px;
+  left: 328px;
+}
+
+.faceUp {
+  left: 328px;
+}
+
+.faceBack {
+  top: 328px;
+  left: 984px;
+}
+/*# sourceMappingURL=Scramble.module.css.map */

@@ -1,0 +1,33 @@
+.faceWrapper {
+  display: inline-block;
+  width: 316px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.faceRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0.1rem 0;
+}
+
+.faceBlock {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  display: inline-block;
+  min-height: 38px;
+  width: 100%;
+  margin: 0 0.1rem;
+  border: 1px solid gray;
+}
+/*# sourceMappingURL=Face.module.css.map */

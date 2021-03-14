@@ -1,0 +1,34 @@
+.navControls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  & select {
+    padding: 0.5rem;
+  }
+
+  & button {
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem;
+    background-color: rgba(0, 160, 253, 0.966);
+    color: white;
+  }
+}
+
+.scrambleMoves {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  & span {
+    padding: 0.2rem 0.2rem;
+  }
+}
